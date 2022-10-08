@@ -1,0 +1,23 @@
+{
+    "name": "leori/app-salon_php_mvc_js_sass",
+    "description": "Project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leo I. Rivera",
+            "email": "leoivan@amlconsultant.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
