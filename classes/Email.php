@@ -73,7 +73,7 @@ class Email{
 
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola "  . $this->nombre . "</strong> Has solicitado reetablecer tu password, sigue el siguiente enlace para continuar.</p>";
-        $contenido .= "<p> Presiona aquí: <a href='http://localhost:4000/reestablecer?token=" . $this->token . "'>Reestablece contraseña</a></p>";
+        $contenido .= "<p> Presiona aquí: <a href='http://warm-fjord-43843.herokuapp.com/reestablecer?token=" . $this->token . "'>Reestablece contraseña</a></p>";
         $contenido .= "<p>Si tu no solicitastes esta cuenta, favor de hacer caso omiso.</p>";
         $contenido .= "</html>";
 
